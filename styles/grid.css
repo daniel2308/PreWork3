@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* grid-row */
+.grid-row:before, .grid-row:after{content:"";display:table;clear:both;}
+/* column */
+[class*="column-"]{
+	float:left;
+	min-height:1px;
+    padding:15px; 
+	width:16.66%;
+	}
+.column-1{width:16.66%}
+.column-2{width:25%}
+.column-3{width:33.33%}
+.column-4{width:50%}
+.column-5{width:66.664%;}
+.column-6{width:83.33%;}
+.column-7{width:100%;}
+
+
+
+	
